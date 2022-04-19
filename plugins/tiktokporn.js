@@ -27,5 +27,6 @@ handler.command = /^((tik(tok)?)?porn(no)?)$/i
 handler.private = true
 handler.register = true
 handler.limit = true
+handler.premium = true
 
 module.exports = handler

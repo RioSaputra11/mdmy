@@ -15,7 +15,7 @@ global.clp = require('caliph-api')
 global.bs = require('@bochilteam/scraper')
 global.baileys = require('@adiwajshing/baileys')
 
-global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) [`6282117332347`] // Change owner number => src/premium.json
+global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Change owner number => src/premium.json
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit 
 

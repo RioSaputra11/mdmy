@@ -19,7 +19,7 @@ global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Change owner n
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit 
 
-global.repox = 'raselcomel/mymd'
+global.repox = 'riosaputra11/mymd'
 global.branx = 'master'
 
 global.APIs = { // API Prefix
@@ -46,7 +46,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = ''
-  var sticker_author = '               ig\n🔥 @rasel.ganz 🔥'
+  var sticker_author = '               bot md by\n🔥 loli botz 🔥'
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -85,7 +85,7 @@ global.pclg = colong_name
 global.aclg = colong_author
 //======================================//
 
-global.wm = '@rasel.ganz'
+global.wm = 'loli botz'
 global.ucpn = ''
 
 //================= Url =================//
@@ -98,15 +98,15 @@ global.web1 = 'https://anu.rasell.repl.co'
 
 global.deslink = ''
 global.titlink = 'Folllow me on Instagram'
-global.bodlink = '@rasel.ganz'
+global.bodlink = '@riosapuuttrraa_'
 
 //========= Url Template Button =========//
 global.dtu = 'Group Bot WhatsApp'
-global.urlnya = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
+global.urlnya = 'https://chat.whatsapp.com/JJTFPtQ01B67gdhxnjnaSd'
 
 //========= Call Template Button =========//
 global.dtc = 'Add Me'
-global.nmbrnya = '+62 822-5604-8971'
+global.nmbrnya = '+62 821-1909-4904'
 
 
 //============ Proses Bot ============//

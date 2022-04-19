@@ -85,7 +85,7 @@ global.pclg = colong_name
 global.aclg = colong_author
 //======================================//
 
-global.wm = 'loli botz'
+global.wm = 'loli botz-md'
 global.ucpn = ''
 
 //================= Url =================//

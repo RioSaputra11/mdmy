@@ -3,7 +3,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   try {
   let res = await fetch('https://api.waifu.pics/sfw/waifu')
   let json = await res.json()
-  conn.sendBI(m.chat, `Nihh waifunya @${m.sender.split('@')[0]}`, wm, json.url, [[`Next`, `${usedPrefix}${command}`]], m, {mentions: [m.sender], jpegThumbnail: await(await fetch(json.url)).buffer()})
+  conn.sendBI(m.chat, `istri kartun🤭 @${m.sender.split('@')[0]}`, wm, json.url, [[`Next`, `${usedPrefix}${command}`]], m, {mentions: [m.sender], jpegThumbnail: await(await fetch(json.url)).buffer()})
   } catch {
     throw eror 
   }

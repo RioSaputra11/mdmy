@@ -29,7 +29,7 @@ ${sb}
 `.trim()
 var as = `Tanggal : ${week}, ${date}\nWaktu : ${a} (WIB)`
  //conn.sendTBL(m.chat, infonyacok, as, fla + `${command}`, null, null, `Menu`, `${usedPrefix}menu`, null, null, null, null, m, 
-     conn.sendBL(m.chat, infonyacok, as, fla + `${command}`, [[`SC Bot`, `${usedPrefix}sc`], [`Menu`, `${usedPrefix}menu`]], m,        
+     conn.sendBL(m.chat, infonyacok, as, fla + `${command}`, [`Menu`, `${usedPrefix}menu`]], m,        
            {mentions: ['6282117332347@s.whatsapp.net']})
 
 }

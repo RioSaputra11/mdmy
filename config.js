@@ -46,7 +46,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = ''
-  var sticker_author = '               bot md by\n🔥 loli botz 🔥'
+  var sticker_author = '               6282119094904\n🔥Ｒｙｏｂｏｔ－Ｍｄ V2🔥'
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -68,7 +68,7 @@ const cpack = fs.readFileSync("lib/colong.json")
 const ctickerpack = JSON.parse(cpack)
 if (ctickerpack.cpackname == '') {
   var colong_name = 'sikilinsut olang nylong stikell'
-  var colong_author = 'Ciss 📸\n\n@rasel.ganz'
+  var colong_author = 'Ciss 📸\n\n@Ｒｙｏｂｏｔ－Ｍｄ V2'
  } else {
   var colong_name = ctickerpack.cpackname
   var colong_author = ctickerpack.cauthor
@@ -85,7 +85,7 @@ global.pclg = colong_name
 global.aclg = colong_author
 //======================================//
 
-global.wm = 'loli botz-md'
+global.wm = 'Ｒｙｏｂｏｔ－Ｍｄ V2'
 global.ucpn = ''
 
 //================= Url =================//
@@ -102,7 +102,7 @@ global.bodlink = '@riosapuuttrraa_'
 
 //========= Url Template Button =========//
 global.dtu = 'Group Bot WhatsApp'
-global.urlnya = 'https://chat.whatsapp.com/JJTFPtQ01B67gdhxnjnaSd'
+global.urlnya = 'https://chat.whatsapp.com/LHKNcjTzVfkLIS1DD9E6Us'
 
 //========= Call Template Button =========//
 global.dtc = 'Add Me'
